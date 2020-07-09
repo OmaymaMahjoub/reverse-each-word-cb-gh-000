@@ -6,6 +6,6 @@ def reverse_each_word (sentence)
     w.reverse
     l2.push(w)
   end
-  return l2.join(" ")
+  puts l2.join(" ")
 end
 reverse_each_word("Hello my name?")
