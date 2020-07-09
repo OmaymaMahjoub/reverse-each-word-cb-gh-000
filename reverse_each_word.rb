@@ -1,8 +1,8 @@
 def reverse_each_word(sentence)
   sentence.split(" ")
-  arr do |w|
+  sentence do |w|
     w.reverse
   end
-  #return arr.join(" ")
+  return sentence.join(" ")
 end
 reverse_each_word("Hello my name?")
