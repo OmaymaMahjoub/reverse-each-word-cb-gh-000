@@ -4,6 +4,6 @@ def reverse_each_word (sentence)
   l.each do |w|
     w.reverse
   end
-  return l.join(" ")
+  puts l.join(" ")
 end
 reverse_each_word("Hello my name?")
