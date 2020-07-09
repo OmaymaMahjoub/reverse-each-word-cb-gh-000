@@ -4,8 +4,8 @@ def reverse_each_word (sentence)
   puts l[0]
   l2=Array.new
   l.each do |w|
-    w.reverse
-    puts w
+    w1=w.reverse
+    puts w1
     l2.push(w)
   end
   puts l2.join(" ")
