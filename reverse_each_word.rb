@@ -8,5 +8,3 @@ def reverse_each_word (sentence)
   end
   return l2.join(" ")
 end
-
-
