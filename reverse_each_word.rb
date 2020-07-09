@@ -5,4 +5,4 @@ def reverse_each_word(sentence)
   end
   return arr.join(" ")
 end
-reverse_each_word("Hello")
+reverse_each_word("Hello my name?")
