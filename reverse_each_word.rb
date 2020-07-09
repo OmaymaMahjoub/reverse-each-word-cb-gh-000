@@ -1,11 +1,11 @@
 def reverse_each_word (sentence)
   l=Array.new
   l=sentence.split(" ")
-  puts sentence
+  l2=Array.new
   l.each do |w|
     w.reverse
+    l2.push(w)
   end
-  l.inspect
-  puts l.join(" ")
+  return l2.join(" ")
 end
 reverse_each_word("Hello my name?")
