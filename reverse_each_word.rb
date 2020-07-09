@@ -3,8 +3,7 @@ def reverse_each_word (sentence)
   l=sentence.split(" ")
   l2=Array.new
   l.collect do |w|
-    w1=w.reverse
-    l2.push(w1)
+    w=w.reverse
   end
-  return l2.join(" ")
+  return l.join(" ")
 end
